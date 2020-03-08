@@ -1,0 +1,21 @@
+{
+  "name": "purescript_book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "spago-watch": "spago bundle-app --main Main --to dist/app.js --watch",
+    "parcel-watch": "parcel serve src/index.html --target \"browser\" -o index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "purescript": "^0.13.6",
+    "purty": "^6.0.0",
+    "spago": "^0.14.0"
+  }
+}
